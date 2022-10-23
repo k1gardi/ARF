@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6208CEA52903659B0054B34D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 6208CEA42903659B0054B34D /* FirebaseAuth */; };
+		6208CEA72903659B0054B34D /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6208CEA62903659B0054B34D /* FirebaseFirestore */; };
+		6208CEA92903659B0054B34D /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6208CEA82903659B0054B34D /* FirebaseFirestoreSwift */; };
+		6208CEAB2903659B0054B34D /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 6208CEAA2903659B0054B34D /* FirebaseStorage */; };
+		6208CEAD2903687B0054B34D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6208CEAC2903687B0054B34D /* GoogleService-Info.plist */; };
+		6208CEAE2903687B0054B34D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6208CEAC2903687B0054B34D /* GoogleService-Info.plist */; };
+		6208CEAF2903687B0054B34D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6208CEAC2903687B0054B34D /* GoogleService-Info.plist */; };
+		6208CEB129036C520054B34D /* ModelsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6208CEB029036C520054B34D /* ModelsViewModel.swift */; };
+		6208CEB229036C520054B34D /* ModelsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6208CEB029036C520054B34D /* ModelsViewModel.swift */; };
+		6208CEB329036C520054B34D /* ModelsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6208CEB029036C520054B34D /* ModelsViewModel.swift */; };
+		6208CEBE290370E50054B34D /* FirebaseStorageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6208CEBD290370E50054B34D /* FirebaseStorageHelper.swift */; };
+		622E8F9928FCDD1300EFD356 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622E8F9828FCDD1300EFD356 /* ControlView.swift */; };
+		622E8F9B28FCE81A00EFD356 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622E8F9A28FCE81A00EFD356 /* BrowseView.swift */; };
+		622E8F9D28FD08A200EFD356 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622E8F9C28FD08A200EFD356 /* Model.swift */; };
+		62411BA528FFAA0F00E14B1B /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 62411BA428FFAA0F00E14B1B /* FocusEntity */; };
+		62411BA728FFAA4300E14B1B /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62411BA628FFAA4300E14B1B /* CustomARView.swift */; };
+		6248CD912904CAD40098C4C0 /* ScenePersistenceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6248CD902904CAD40098C4C0 /* ScenePersistenceHelper.swift */; };
+		6248CD932904FBFE0098C4C0 /* ModelDeletionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6248CD922904FBFE0098C4C0 /* ModelDeletionManager.swift */; };
+		6248CD95290503A00098C4C0 /* DeletionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6248CD94290503A00098C4C0 /* DeletionView.swift */; };
 		6253395A28FA25F000257A33 /* ARFApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6253395928FA25F000257A33 /* ARFApp.swift */; };
 		6253395C28FA25F000257A33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6253395B28FA25F000257A33 /* ContentView.swift */; };
 		6253395E28FA25F100257A33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6253395D28FA25F100257A33 /* Assets.xcassets */; };
@@ -14,6 +33,12 @@
 		6253396B28FA25F100257A33 /* ARFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6253396A28FA25F100257A33 /* ARFTests.swift */; };
 		6253397528FA25F100257A33 /* ARFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6253397428FA25F100257A33 /* ARFUITests.swift */; };
 		6253397728FA25F100257A33 /* ARFUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6253397628FA25F100257A33 /* ARFUITestsLaunchTests.swift */; };
+		6262A1D828FE55EC00025AB2 /* PlacementSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6262A1D728FE55EC00025AB2 /* PlacementSettings.swift */; };
+		6262A1DA28FE57D400025AB2 /* PlacementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6262A1D928FE57D400025AB2 /* PlacementView.swift */; };
+		62D25F2E290472770002D1D6 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D25F2D290472770002D1D6 /* ARViewContainer.swift */; };
+		62EDBB792900CF04007C5D8D /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EDBB782900CF04007C5D8D /* View+Extensions.swift */; };
+		62EDBB7B2900D813007C5D8D /* SessionSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EDBB7A2900D813007C5D8D /* SessionSettings.swift */; };
+		62EDBB7D2900D8F2007C5D8D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EDBB7C2900D8F2007C5D8D /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +59,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6208CEAC2903687B0054B34D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6208CEB029036C520054B34D /* ModelsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsViewModel.swift; sourceTree = "<group>"; };
+		6208CEBD290370E50054B34D /* FirebaseStorageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseStorageHelper.swift; sourceTree = "<group>"; };
+		622E8F9828FCDD1300EFD356 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		622E8F9A28FCE81A00EFD356 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		622E8F9C28FD08A200EFD356 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		62411BA628FFAA4300E14B1B /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
+		6248CD902904CAD40098C4C0 /* ScenePersistenceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenePersistenceHelper.swift; sourceTree = "<group>"; };
+		6248CD922904FBFE0098C4C0 /* ModelDeletionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDeletionManager.swift; sourceTree = "<group>"; };
+		6248CD94290503A00098C4C0 /* DeletionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletionView.swift; sourceTree = "<group>"; };
 		6253395628FA25F000257A33 /* ARF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6253395928FA25F000257A33 /* ARFApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARFApp.swift; sourceTree = "<group>"; };
 		6253395B28FA25F000257A33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +79,13 @@
 		6253397028FA25F100257A33 /* ARFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6253397428FA25F100257A33 /* ARFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARFUITests.swift; sourceTree = "<group>"; };
 		6253397628FA25F100257A33 /* ARFUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARFUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6253398328FA2A6900257A33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6262A1D728FE55EC00025AB2 /* PlacementSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementSettings.swift; sourceTree = "<group>"; };
+		6262A1D928FE57D400025AB2 /* PlacementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementView.swift; sourceTree = "<group>"; };
+		62D25F2D290472770002D1D6 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		62EDBB782900CF04007C5D8D /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		62EDBB7A2900D813007C5D8D /* SessionSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionSettings.swift; sourceTree = "<group>"; };
+		62EDBB7C2900D8F2007C5D8D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +93,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62411BA528FFAA0F00E14B1B /* FocusEntity in Frameworks */,
+				6208CEA52903659B0054B34D /* FirebaseAuth in Frameworks */,
+				6208CEA72903659B0054B34D /* FirebaseFirestore in Frameworks */,
+				6208CEAB2903659B0054B34D /* FirebaseStorage in Frameworks */,
+				6208CEA92903659B0054B34D /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +121,7 @@
 		6253394D28FA25F000257A33 = {
 			isa = PBXGroup;
 			children = (
+				6208CEAC2903687B0054B34D /* GoogleService-Info.plist */,
 				6253395828FA25F000257A33 /* ARF */,
 				6253396928FA25F100257A33 /* ARFTests */,
 				6253397328FA25F100257A33 /* ARFUITests */,
@@ -95,8 +143,24 @@
 			isa = PBXGroup;
 			children = (
 				6253395928FA25F000257A33 /* ARFApp.swift */,
+				62D25F2D290472770002D1D6 /* ARViewContainer.swift */,
+				622E8F9A28FCE81A00EFD356 /* BrowseView.swift */,
 				6253395B28FA25F000257A33 /* ContentView.swift */,
+				622E8F9828FCDD1300EFD356 /* ControlView.swift */,
+				62411BA628FFAA4300E14B1B /* CustomARView.swift */,
+				6208CEBD290370E50054B34D /* FirebaseStorageHelper.swift */,
+				622E8F9C28FD08A200EFD356 /* Model.swift */,
+				6208CEB029036C520054B34D /* ModelsViewModel.swift */,
+				6262A1D728FE55EC00025AB2 /* PlacementSettings.swift */,
+				6262A1D928FE57D400025AB2 /* PlacementView.swift */,
+				6248CD94290503A00098C4C0 /* DeletionView.swift */,
+				62EDBB7C2900D8F2007C5D8D /* SettingsView.swift */,
+				6248CD902904CAD40098C4C0 /* ScenePersistenceHelper.swift */,
+				6248CD922904FBFE0098C4C0 /* ModelDeletionManager.swift */,
+				62EDBB7A2900D813007C5D8D /* SessionSettings.swift */,
+				62EDBB782900CF04007C5D8D /* View+Extensions.swift */,
 				6253395D28FA25F100257A33 /* Assets.xcassets */,
+				6253398328FA2A6900257A33 /* Info.plist */,
 				6253395F28FA25F100257A33 /* Preview Content */,
 			);
 			path = ARF;
@@ -143,6 +207,13 @@
 			dependencies = (
 			);
 			name = ARF;
+			packageProductDependencies = (
+				62411BA428FFAA0F00E14B1B /* FocusEntity */,
+				6208CEA42903659B0054B34D /* FirebaseAuth */,
+				6208CEA62903659B0054B34D /* FirebaseFirestore */,
+				6208CEA82903659B0054B34D /* FirebaseFirestoreSwift */,
+				6208CEAA2903659B0054B34D /* FirebaseStorage */,
+			);
 			productName = ARF;
 			productReference = 6253395628FA25F000257A33 /* ARF.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +286,10 @@
 				Base,
 			);
 			mainGroup = 6253394D28FA25F000257A33;
+			packageReferences = (
+				62411BA328FFAA0F00E14B1B /* XCRemoteSwiftPackageReference "FocusEntity" */,
+				6208CEA32903659B0054B34D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 6253395728FA25F000257A33 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6253396128FA25F100257A33 /* Preview Assets.xcassets in Resources */,
+				6208CEAD2903687B0054B34D /* GoogleService-Info.plist in Resources */,
 				6253395E28FA25F100257A33 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +316,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6208CEAE2903687B0054B34D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +324,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6208CEAF2903687B0054B34D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +335,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6262A1D828FE55EC00025AB2 /* PlacementSettings.swift in Sources */,
+				62EDBB7B2900D813007C5D8D /* SessionSettings.swift in Sources */,
+				62EDBB792900CF04007C5D8D /* View+Extensions.swift in Sources */,
+				62D25F2E290472770002D1D6 /* ARViewContainer.swift in Sources */,
+				622E8F9D28FD08A200EFD356 /* Model.swift in Sources */,
+				6248CD932904FBFE0098C4C0 /* ModelDeletionManager.swift in Sources */,
+				6208CEB129036C520054B34D /* ModelsViewModel.swift in Sources */,
+				6248CD912904CAD40098C4C0 /* ScenePersistenceHelper.swift in Sources */,
 				6253395C28FA25F000257A33 /* ContentView.swift in Sources */,
+				622E8F9B28FCE81A00EFD356 /* BrowseView.swift in Sources */,
+				622E8F9928FCDD1300EFD356 /* ControlView.swift in Sources */,
 				6253395A28FA25F000257A33 /* ARFApp.swift in Sources */,
+				62411BA728FFAA4300E14B1B /* CustomARView.swift in Sources */,
+				6208CEBE290370E50054B34D /* FirebaseStorageHelper.swift in Sources */,
+				6262A1DA28FE57D400025AB2 /* PlacementView.swift in Sources */,
+				6248CD95290503A00098C4C0 /* DeletionView.swift in Sources */,
+				62EDBB7D2900D8F2007C5D8D /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6208CEB229036C520054B34D /* ModelsViewModel.swift in Sources */,
 				6253396B28FA25F100257A33 /* ARFTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +369,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6253397728FA25F100257A33 /* ARFUITestsLaunchTests.swift in Sources */,
+				6208CEB329036C520054B34D /* ModelsViewModel.swift in Sources */,
 				6253397528FA25F100257A33 /* ARFUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,7 +440,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +494,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -414,15 +509,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ARF/Preview Content\"";
 				DEVELOPMENT_TEAM = DH486Q5D9H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ARF/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To use Augmented Reality, this app needs access to your camera.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -432,6 +531,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.k1tests.ARF;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -443,15 +543,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ARF/Preview Content\"";
 				DEVELOPMENT_TEAM = DH486Q5D9H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ARF/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To use Augmented Reality, this app needs access to your camera.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -461,6 +565,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.k1tests.ARF;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -583,6 +688,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6208CEA32903659B0054B34D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		62411BA328FFAA0F00E14B1B /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6208CEA42903659B0054B34D /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6208CEA32903659B0054B34D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		6208CEA62903659B0054B34D /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6208CEA32903659B0054B34D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		6208CEA82903659B0054B34D /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6208CEA32903659B0054B34D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		6208CEAA2903659B0054B34D /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6208CEA32903659B0054B34D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		62411BA428FFAA0F00E14B1B /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62411BA328FFAA0F00E14B1B /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6253394E28FA25F000257A33 /* Project object */;
 }
